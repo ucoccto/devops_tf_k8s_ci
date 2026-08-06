@@ -129,3 +129,10 @@
         "repository_id": 1324570033
       }
     ```
+
+## 전체 인프라 구성 및 최초 web/was 이미지 빌드 -> ECR Push : ci worlflow 진행
+- 최초 (인프라구성) / 수정된 인프라 배포
+```
+./project.sh deploy
+./project.bat deploy
+```
