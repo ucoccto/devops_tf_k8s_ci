@@ -136,3 +136,9 @@
 ./project.sh deploy
 ./project.bat deploy
 ```
+
+- ci 셋업 1회 진행
+```
+./setup-ci.bat ucoccto/devops_tf_k8s_ci 
+./setup-ci.sh ucoccto/devops_tf_k8s_ci
+```
