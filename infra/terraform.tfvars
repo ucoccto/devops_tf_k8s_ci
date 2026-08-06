@@ -19,7 +19,7 @@ db_allocated_storage = 20
 enable_github_actions_ci = true
 github_owner             = "ucoccto"          # 본 프로젝트의 깃허브의 소유주명
 github_ci_repository     = "devops_tf_k8s_ci" # 본 프로젝트 저장소 이름
-github_ci_branch         = "main" # 어던 브런치에서만 ECR push를 위한 인증 허가할것인가
+github_ci_branch         = "main"             # 어던 브런치에서만 ECR push를 위한 인증 허가할것인가
 
 # 아래 오류 나면 false로 설정 (이미 있음)
 #│ Error: creating IAM OIDC Provider: operation error IAM: CreateOpenIDConnectProvider, https response error StatusCode: 409, RequestID: 50cef171-e45d-48bf-a7ea-bff005d1aa6f, EntityAlreadyExists: Provider with url https://token.actions.githubusercontent.com already exists.
